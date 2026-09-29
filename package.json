@@ -1,0 +1,17 @@
+{
+  "name": "ai-loan-eligibility-checker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A production-ready BFSI loan eligibility, credit score and EMI toolkit.",
+  "type": "module",
+  "packageManager": "pnpm@11.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "node build.mjs",
+    "test": "node tests/validation.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

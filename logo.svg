@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">AI Loan Eligibility Checker logo</title>
+  <desc id="desc">A cyan shield with a checkmark and a teal upward path</desc>
+  <rect width="128" height="128" fill="#0a0f1f"/>
+  <path d="M64 16 101 30v27c0 26-15 43-37 55C42 100 27 83 27 57V30z" fill="#38bdf8"/>
+  <path d="M64 27 91 37v19c0 18-10 31-27 41-17-10-27-23-27-41V37z" fill="#0a0f1f"/>
+  <path d="m43 62 13 13 29-30" fill="none" stroke="#10b981" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M41 88c9-4 16-7 23-11 8-4 16-10 24-19" fill="none" stroke="#38bdf8" stroke-opacity=".7" stroke-width="4" stroke-linecap="round"/>
+</svg>

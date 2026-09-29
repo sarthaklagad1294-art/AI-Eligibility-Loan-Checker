@@ -1,0 +1,14 @@
+flowchart LR
+  U[User] --> F[Frontend: ClearPath Fintech]
+  F --> V[Inline validation\nrequired fields + safe ranges]
+  V --> L[Deterministic logic\neligibility / credit / EMI]
+  L --> R[Result UI\ngauges + breakdown + chart]
+  L --> C[Claude proxy\nAI explanation + tips]
+  C --> R
+  F --> S{Consent to save?}
+  S -- No --> H[Local session only]
+  S -- Yes --> G[Google Apps Script]
+  G --> GS[(Google Sheet history)]
+  GS --> H2[History section]
+  H --> H2
+  R --> H2
